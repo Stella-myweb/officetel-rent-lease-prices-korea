@@ -1,0 +1,30 @@
+# 오피스텔 전월세 실거래가 대시보드 - 필수 패키지
+# Streamlit 앱 실행을 위한 requirements.txt
+
+# 핵심 프레임워크
+streamlit>=1.28.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# 웹 요청 및 XML 처리
+requests>=2.31.0
+urllib3>=2.0.0
+
+# 데이터 시각화
+plotly>=5.17.0
+
+# 지도 시각화
+folium>=0.14.0
+streamlit-folium>=0.13.0
+
+# 날짜/시간 처리 (내장 라이브러리이지만 명시)
+# datetime (built-in)
+
+# 경고 무시 (내장 라이브러리)
+# warnings (built-in)
+
+# XML 파싱 (내장 라이브러리)
+# xml.etree.ElementTree (built-in)
+
+# 문자열 처리 (내장 라이브러리)
+# io (built-in)
